@@ -1,0 +1,28 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.pageBody {
+  padding: 0rem 1.5rem 2rem;
+  p:first-child {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.header {
+  padding: 2rem 1.5rem 1rem;
+}
+
+.title {
+  margin: 0;
+}
